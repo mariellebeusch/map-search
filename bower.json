@@ -1,0 +1,17 @@
+{
+  "name": "map-search",
+  "description": "Dies ist eine weitere Komponente um google-search zu testen",
+  "main": "map-search.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "google-map": "GoogleWebComponents/google-map#^2.0.1"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  }
+}

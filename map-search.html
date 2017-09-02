@@ -1,0 +1,42 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../google-map/google-map-search.html">
+<link rel="import" href="../google-map/google-map.html">
+
+
+<dom-module id="map-search">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <map-search></map-search>
+
+
+  </template>
+
+  <script>
+    /**
+     * `map-search`
+     * Dies ist eine weitere Komponente um google-search zu testen
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class MapSearch extends Polymer.Element {
+      static get is() { return 'map-search'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'map-search'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(MapSearch.is, MapSearch);
+  </script>
+</dom-module>
